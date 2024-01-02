@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+
+<body>
+    <section class="todo-container">
+        <input class="input-title" type="text " id="input-titles" placeholder="Name here..">
+        <h1>What`s up ,</h1>
+        <div class="input-btn">
+            <h3>CREATE A TODO</h3>
+            <p>What`s in your todo list?</p>
+            <input type="text" id="todo" placeholder="e.g.get a milk"> <br>
+        </div>
+        <div class="buttons">
+            <p>Pick a category</p>
+            <section class="borders">
+                <div class="business">
+                    <label class="checkbox">
+                        <input type="checkbox" id="bisness" type="checkbox">
+                        <span class="bisness_check">
+                            <h4>𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬</h4>
+                        </span>
+                    </label>
+                </div>
+                <div class="personal">
+                    <label class="checkboxx">
+                        <input id="personal" type="checkbox">
+                    </label>
+                    <span class="personal_check">
+                        <h4>𝐏𝐞𝐫𝐬𝐨𝐧𝐚𝐥</h4>
+                    </span>
+                </div>
+                <br>
+                <button class="add">𝐀𝐝𝐝 𝐓𝐨𝐝𝐨</button>
+                <br>
+            </section>
+            <section class="tasl_list">
+                <h2>TO DO LIST</h2>
+                <ul class="list"></ul>
+            </section>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
